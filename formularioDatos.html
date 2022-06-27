@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+</head>
+<body>
+    <h1>Registro de alumnos</h1>
+        <form action="alumnos.php" method="post">
+            Nombre:
+            <input type="text" name="nombre"><br><br>
+            Apellido Paterno:
+            <input type="text" name="apellidopaterno"><br><br>
+            Apellido Materno:
+            <input type="text" name="apellidomaterno"><br><br>
+            Edad:
+            <select name="edad">
+                <option>...</option>
+                <option>15</option>
+                <option>18</option>
+                <option>20</option>
+                <option>23</option>
+                <option>25</option>
+                <option>27</option>
+                <option>29</option>
+            </select>
+            <br><br>
+            Sexo: <br>
+            <input type="radio" name="sexo" value="M">Masculino
+            <br>
+            <input type="radio" name="sexo" value="F">Femenino
+            <br><br>
+            Dirección
+            <input type="text" name="direccion"><br><br>
+            Nivel de estudios: <br>
+            <input type="radio" name="nivelestudios" value="Primaria">Primaria
+            <br>
+            <input type="radio" name="nivelestudios" value="Secundaria">Secundaria
+            <br>
+            <input type="radio" name="nivelestudios" value="Bachillerato">Bachillerato
+            <br>
+            <input type="radio" name="nivelestudios" value="Licenciatura">Licenciatura
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+</body>
+</html>
